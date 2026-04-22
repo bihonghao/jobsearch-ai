@@ -16,3 +16,20 @@ def test_parser_avoids_partial_word_skill_matches() -> None:
     )
 
     assert "sql" not in profile.skills
+
+
+def test_parser_matches_hyphenated_multiword_skills() -> None:
+    profile = parse_candidate_profile(
+        resume_text="Built machine-learning services and led project-management delivery.",
+        profile_text="Interested in AI automation.",
+        personality=PersonalityProfile(
+            analytical=0.5,
+            social=0.5,
+            structured=0.5,
+            creative=0.5,
+            leadership=0.5,
+        ),
+    )
+
+    assert "machine learning" in profile.skills
+    assert "project management" in profile.skills

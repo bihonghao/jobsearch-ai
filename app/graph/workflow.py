@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from typing import TypedDict
 
 from langgraph.graph import END, StateGraph
@@ -20,7 +21,8 @@ class WorkflowState(TypedDict, total=False):
 
 
 def _normalize_target_role(value: str) -> str:
-    return " ".join(value.lower().split())
+    collapsed = re.sub(r"[^a-z0-9]+", " ", value.lower())
+    return " ".join(collapsed.split())
 
 
 def _filter_target_roles(roles: list[JobRole], target_roles: list[str]) -> list[JobRole]:

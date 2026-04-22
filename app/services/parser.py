@@ -55,9 +55,19 @@ INTEREST_KEYWORDS = {
 
 
 def _contains_phrase(text: str, phrase: str) -> bool:
-    """Return True when a phrase appears as whole words (not partial token matches)."""
-    escaped = re.escape(phrase)
-    pattern = rf"\b{escaped}\b"
+    """Return True when a phrase appears as whole words.
+
+    This supports common separators (spaces, hyphens, slashes) between
+    multi-word phrases while still preventing partial-token matches.
+    """
+
+    parts = [re.escape(part) for part in phrase.strip().split() if part]
+    if not parts:
+        return False
+
+    separator = r"(?:[\s\-/]+)"
+    joined = separator.join(parts)
+    pattern = rf"(?<!\w){joined}(?!\w)"
     return re.search(pattern, text, flags=re.IGNORECASE) is not None
 
 

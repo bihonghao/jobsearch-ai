@@ -31,6 +31,10 @@ def test_filter_target_roles_matches_on_id_and_title() -> None:
     assert len(by_title) == 1
     assert by_title[0].id == "product_manager"
 
+    by_hyphenated = _filter_target_roles(roles, ["data-scientist"])
+    assert len(by_hyphenated) == 1
+    assert by_hyphenated[0].id == "data_scientist"
+
 
 def test_filter_target_roles_falls_back_when_no_match() -> None:
     roles = [_role("data_scientist", "Data Scientist")]
