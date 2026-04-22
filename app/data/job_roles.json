@@ -1,0 +1,323 @@
+[
+  {
+    "id": "jr_data_analyst",
+    "title": "Data Analyst",
+    "required_skills": [
+      "sql",
+      "excel",
+      "tableau",
+      "data analysis",
+      "statistics"
+    ],
+    "preferred_education": [
+      "bachelor"
+    ],
+    "personality_weights": {
+      "analytical": 0.9,
+      "social": 0.4,
+      "structured": 0.8,
+      "creative": 0.4,
+      "leadership": 0.3
+    },
+    "related_interests": [
+      "finance",
+      "healthcare",
+      "ai"
+    ]
+  },
+  {
+    "id": "jr_data_scientist",
+    "title": "Data Scientist",
+    "required_skills": [
+      "python",
+      "sql",
+      "machine learning",
+      "statistics",
+      "data analysis"
+    ],
+    "preferred_education": [
+      "master",
+      "phd"
+    ],
+    "personality_weights": {
+      "analytical": 1.0,
+      "social": 0.3,
+      "structured": 0.7,
+      "creative": 0.6,
+      "leadership": 0.4
+    },
+    "related_interests": [
+      "ai",
+      "finance",
+      "gaming"
+    ]
+  },
+  {
+    "id": "jr_backend_engineer",
+    "title": "Backend Engineer",
+    "required_skills": [
+      "python",
+      "sql",
+      "docker",
+      "cloud",
+      "aws"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "bootcamp"
+    ],
+    "personality_weights": {
+      "analytical": 0.8,
+      "social": 0.3,
+      "structured": 0.8,
+      "creative": 0.5,
+      "leadership": 0.4
+    },
+    "related_interests": [
+      "ai",
+      "startups",
+      "automation"
+    ]
+  },
+  {
+    "id": "jr_frontend_engineer",
+    "title": "Frontend Engineer",
+    "required_skills": [
+      "javascript",
+      "react",
+      "figma",
+      "communication",
+      "agile"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "bootcamp"
+    ],
+    "personality_weights": {
+      "analytical": 0.6,
+      "social": 0.6,
+      "structured": 0.5,
+      "creative": 0.8,
+      "leadership": 0.4
+    },
+    "related_interests": [
+      "design",
+      "education",
+      "gaming"
+    ]
+  },
+  {
+    "id": "jr_product_manager",
+    "title": "Product Manager",
+    "required_skills": [
+      "project management",
+      "communication",
+      "product strategy",
+      "agile",
+      "leadership"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "mba"
+    ],
+    "personality_weights": {
+      "analytical": 0.7,
+      "social": 0.9,
+      "structured": 0.7,
+      "creative": 0.7,
+      "leadership": 0.9
+    },
+    "related_interests": [
+      "startups",
+      "ai",
+      "education"
+    ]
+  },
+  {
+    "id": "jr_ux_designer",
+    "title": "UX Designer",
+    "required_skills": [
+      "figma",
+      "communication",
+      "project management",
+      "content writing",
+      "agile"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "bootcamp"
+    ],
+    "personality_weights": {
+      "analytical": 0.5,
+      "social": 0.7,
+      "structured": 0.5,
+      "creative": 1.0,
+      "leadership": 0.4
+    },
+    "related_interests": [
+      "design",
+      "education",
+      "healthcare"
+    ]
+  },
+  {
+    "id": "jr_marketing_specialist",
+    "title": "Marketing Specialist",
+    "required_skills": [
+      "marketing",
+      "content writing",
+      "communication",
+      "data analysis",
+      "project management"
+    ],
+    "preferred_education": [
+      "bachelor"
+    ],
+    "personality_weights": {
+      "analytical": 0.5,
+      "social": 0.8,
+      "structured": 0.5,
+      "creative": 0.8,
+      "leadership": 0.5
+    },
+    "related_interests": [
+      "startups",
+      "gaming",
+      "sustainability"
+    ]
+  },
+  {
+    "id": "jr_sales_manager",
+    "title": "Sales Manager",
+    "required_skills": [
+      "sales",
+      "communication",
+      "leadership",
+      "project management",
+      "public speaking"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "mba"
+    ],
+    "personality_weights": {
+      "analytical": 0.4,
+      "social": 0.9,
+      "structured": 0.6,
+      "creative": 0.5,
+      "leadership": 1.0
+    },
+    "related_interests": [
+      "finance",
+      "startups",
+      "healthcare"
+    ]
+  },
+  {
+    "id": "jr_customer_success",
+    "title": "Customer Success Manager",
+    "required_skills": [
+      "customer support",
+      "communication",
+      "project management",
+      "leadership",
+      "data analysis"
+    ],
+    "preferred_education": [
+      "bachelor"
+    ],
+    "personality_weights": {
+      "analytical": 0.5,
+      "social": 0.9,
+      "structured": 0.7,
+      "creative": 0.5,
+      "leadership": 0.7
+    },
+    "related_interests": [
+      "education",
+      "healthcare",
+      "ai"
+    ]
+  },
+  {
+    "id": "jr_project_manager",
+    "title": "Project Manager",
+    "required_skills": [
+      "project management",
+      "agile",
+      "communication",
+      "leadership",
+      "excel"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "mba"
+    ],
+    "personality_weights": {
+      "analytical": 0.6,
+      "social": 0.7,
+      "structured": 1.0,
+      "creative": 0.4,
+      "leadership": 0.8
+    },
+    "related_interests": [
+      "automation",
+      "finance",
+      "sustainability"
+    ]
+  },
+  {
+    "id": "jr_cloud_engineer",
+    "title": "Cloud Engineer",
+    "required_skills": [
+      "cloud",
+      "aws",
+      "docker",
+      "kubernetes",
+      "python"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "bootcamp"
+    ],
+    "personality_weights": {
+      "analytical": 0.8,
+      "social": 0.3,
+      "structured": 0.9,
+      "creative": 0.4,
+      "leadership": 0.4
+    },
+    "related_interests": [
+      "automation",
+      "ai",
+      "startups"
+    ]
+  },
+  {
+    "id": "jr_business_analyst",
+    "title": "Business Analyst",
+    "required_skills": [
+      "data analysis",
+      "sql",
+      "communication",
+      "excel",
+      "project management"
+    ],
+    "preferred_education": [
+      "bachelor",
+      "mba"
+    ],
+    "personality_weights": {
+      "analytical": 0.8,
+      "social": 0.6,
+      "structured": 0.8,
+      "creative": 0.4,
+      "leadership": 0.5
+    },
+    "related_interests": [
+      "finance",
+      "healthcare",
+      "education"
+    ]
+  }
+]
